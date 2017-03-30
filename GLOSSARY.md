@@ -1,5 +1,5 @@
 ## git init
-Iniciamos un repositorio.
+Iniciamos un repositorio. Para ello generará una carpeta `.git` en la carpeta donde lo ejecutemos y dentro contendrá los ficheros que él necesite.
 
 ## git add
 Marcamos un fichero para el próximo commit.

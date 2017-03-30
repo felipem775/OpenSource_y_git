@@ -1,12 +1,12 @@
 Para facilitar el manual vamos a crear un proyecto de ejemplo: Una calculadora en python.
 
-Como cualquier otro proyecto, por sencillo que sea no lo vamos a desarrollar completo y bien a la primera. 
+Como cualquier otro proyecto por sencillo que sea no lo vamos a desarrollar completo y bien a la primera, por lo que será útil ir registrando los cambios en el repositorio. 
 
 # Preparando el proyecto
 
 Comandos que usaremos: git init, git add, git commit.
 
-Creamos la carpeta pyCalc en el directorio /home/user/workspace/ y abrimos el terminal dentro de ella.
+Creamos la carpeta pyCalc en el directorio /home/user/workspace/ y abrimos el terminal dentro de ella, vamos a iniciar un nuevo repositorio, para ello utilizaremos el comando `git init`
 
 ```
 $  git init
@@ -22,7 +22,7 @@ git commit
 
 Al realizar el commit se nos abre un editor donde introducir un comentario sobre con qué estamos actualizando el repositorio. Podemos escribir tantas líneas como queramos, las  que empiezan con `#` no se almacenarán.
 
-# v0.1 Crear un script que sume dos cifras
+# Crear un script que sume dos cifras
 
 Comandos que usaremos: git init, git add, git commit.
 
@@ -133,3 +133,6 @@ Tras hacer un commit de todos nuestros ficheros, estaremos sincronizados con el 
     
     On branch master
     nothing to commit, working directory clean
+
+# Fin de esta parte
+Bien, con este pequeño tutorial hemos visto los aspectos básicos 
