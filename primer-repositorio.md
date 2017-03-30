@@ -62,7 +62,7 @@ git add suma2numeros.py
 git commit -m "corregido bug, ahora suma números como float y no solo enteros"
 ```
 
-# Ver histórico y cambios
+# Ver histórico y cambios realizados
 
 Comandos que usaremos: git log.
 
@@ -108,4 +108,23 @@ De cada _commit_ que hemos hecho nos da la siguiente información:
 * Comentario que escribió el autor del commit.
 
 
+Si queremos ver qué cambios hemos respecto a un commit, utilizaremos `git diff`
+
+     $ git diff 3f83af0de2447dffe267832a36e53e95ee068846
+```     
+diff --git a/suma2numeros.py b/suma2numeros.py
+index 36aebbe..59dd95c 100644
+--- a/suma2numeros.py
++++ b/suma2numeros.py
+@@ -10,4 +10,4 @@ elif  re.match("^[+-]?\d(>?\.\d+)?$", sys.argv[2]) is None:
+     print("El segundo parámetro no es un número")
+ 
+ else:
+-    print(int(sys.argv[1]) + int(sys.argv[2]))
++    print(float(sys.argv[1]) + float(sys.argv[2]))
+
+
+```
+Aquí podemos ver qué ficheros han sido modificados, en este caso solo suma2numeros.py. Se nos indica en qué parte del fichero ha habido cambios, poniendo la línea anterior para que lo localices antes y, precedido de los signos `-` y `+` vemos qué líneas se han quitado y puesto.
+En este caso vemos cómo ha desaparecido la línea donde se convertían los parámetros a números _int_ y a cambio se ha puesto una línea donde los parámetros se convierten a números _float_.
 
