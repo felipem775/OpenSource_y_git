@@ -9,3 +9,6 @@ Realizamos un commit de los ficheros marcados.
 
 ## git remote
 Git es un servicio distribuido, por lo que podemos añadir la ubicación de otros repositorios con los que trabajar en nuestro proyecto.
+
+## git diff
+Nos permite comparar entre diferentes commits. Podemos ver qué ficheros se han modificado y qué líneas se han quitado o puesto.

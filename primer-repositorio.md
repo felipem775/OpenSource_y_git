@@ -1,9 +1,6 @@
 Para facilitar el manual vamos a crear un proyecto de ejemplo: Una calculadora en python.
 
-Como cualquier otro proyecto, por sencillo que sea no lo vamos a desarrollar completo y bien a la primera. Vamos a proponernos unos hitos.
-
-* Crear un script que sume dos cifras.
-* Modificar el script para añadir diferentes operaciones.
+Como cualquier otro proyecto, por sencillo que sea no lo vamos a desarrollar completo y bien a la primera. 
 
 # Preparando el proyecto
 
@@ -64,42 +61,39 @@ git commit -m "corregido bug, ahora suma números como float y no solo enteros"
 
 # Ver histórico y cambios realizados
 
-Comandos que usaremos: git log.
+Comandos que usaremos: git log, git diff.
 
 Si queremos ver qué cambios el histórico del repositorio simplemente usaremos el comando `git log`
 
-> $ git log  
-> commit 2b50e4ace5d8badf9d0246f8b2570d3f2b31b4fe  
-> Author: Felipe Maza <felipe.maza@unican.es>  
-> Date:   Thu Mar 30 10:35:19 2017 +0200
->
-> 
->     corregido bug, ahora suma números como float y no solo enteros
-> 
->
-> commit 3f83af0de2447dffe267832a36e53e95ee068846  
-> Author: Felipe Maza <felipe.maza@unican.es>  
-> Date:   Thu Mar 30 10:34:02 2017 +0200
->
-> 
->     Añadida validación de que se trata de dos parámetros y que éstos son números
-> 
->
-> commit 386cdcc492f0e30e0956f879eff82c63c6cebad1  
-> Author: Felipe Maza <felipe.maza@unican.es>  
-> Date:   Thu Mar 30 10:16:46 2017 +0200
->
-> 
->     Script muy básico que suma dos números
-> 
->
-> commit 38859dba49cacb9816296cee4f58afd510330259  
-> Author: Felipe Maza <felipe.maza@unican.es> 
-> Date:   Thu Mar 30 10:02:14 2017 +0200
->
-> 
->     Añadimos el primer fichero al repositorio. Contiene una breve descripción.
-> 
+     $ git log  
+     
+     
+```   
+commit 2b50e4ace5d8badf9d0246f8b2570d3f2b31b4fe  
+Author: Felipe Maza <felipe.maza@unican.es>  
+Date:   Thu Mar 30 10:35:19 2017 +0200
+
+    corregido bug, ahora suma números como float y no solo enteros
+
+commit 3f83af0de2447dffe267832a36e53e95ee068846  
+Author: Felipe Maza <felipe.maza@unican.es>  
+Date:   Thu Mar 30 10:34:02 2017 +0200
+
+    Añadida validación de que se trata de dos parámetros y que éstos son números
+
+commit 386cdcc492f0e30e0956f879eff82c63c6cebad1  
+Author: Felipe Maza <felipe.maza@unican.es>  
+Date:   Thu Mar 30 10:16:46 2017 +0200
+
+    Script muy básico que suma dos números
+
+commit 38859dba49cacb9816296cee4f58afd510330259  
+Author: Felipe Maza <felipe.maza@unican.es> 
+Date:   Thu Mar 30 10:02:14 2017 +0200
+
+     Añadimos el primer fichero al repositorio. Contiene una breve descripción.
+ 
+```
 
 De cada _commit_ que hemos hecho nos da la siguiente información:
 * Un identificador alfanumérico, nos servirá cuando queramos referirnos a un commit determinado.
@@ -128,3 +122,14 @@ index 36aebbe..59dd95c 100644
 Aquí podemos ver qué ficheros han sido modificados, en este caso solo suma2numeros.py. Se nos indica en qué parte del fichero ha habido cambios, poniendo la línea anterior para que lo localices antes y, precedido de los signos `-` y `+` vemos qué líneas se han quitado y puesto.
 En este caso vemos cómo ha desaparecido la línea donde se convertían los parámetros a números _int_ y a cambio se ha puesto una línea donde los parámetros se convierten a números _float_.
 
+# Estado del repositorio
+Comandos que usaremos: git status.
+
+Podemos utilizar `git status` para ver en qué estado se encuentran nuestros ficheros respecto al repositorio.
+
+Tras hacer un commit de todos nuestros ficheros, estaremos sincronizados con el repositorio:
+
+    $ git status
+    
+    On branch master
+    nothing to commit, working directory clean
