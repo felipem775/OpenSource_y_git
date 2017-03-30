@@ -6,10 +6,7 @@ Como cualquier otro proyecto, por sencillo que sea no lo vamos a desarrollar com
 * Modificar el script para añadir diferentes operaciones.
 
 # Preparando el proyecto
-Comandos que usaremos:
-* git init: Iniciamos un repositorio.
-* git add: Marcamos un fichero para el próximo commit.
-* git commit: Realizamos un commit de los ficheros marcados.
+Comandos que usaremos: git init, git add, git commit.
 
 Creamos la carpeta pyCalc en el directorio /home/user/workspace/ y abrimos el terminal dentro de ella.
 
@@ -24,6 +21,7 @@ Ahora creamos un fichero llamado README.md donde añadiremos una descripción de
 Al realizar el commit se nos abre un editor donde introducir un comentario sobre con qué estamos actualizando el repositorio. Podemos escribir tantas líneas como queramos, las  que empiezan con `#` no se almacenarán.
 
 # v0.1 Crear un script que sume dos cifras
+Comandos que usaremos: git init, git add, git commit.
 
 Vamos a hacer un script que al ser llamado le pasemos dos números y nos devolverá la suma.
 
@@ -49,7 +47,6 @@ Ahora ya podemos corregir el bug y añadirlo al repositorio
 
     git add suma2numeros.py 
     git commit -m "corregido bug, ahora suma números como float y no solo enteros"
-
 
 
 
