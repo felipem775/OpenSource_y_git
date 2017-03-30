@@ -135,4 +135,6 @@ Tras hacer un commit de todos nuestros ficheros, estaremos sincronizados con el 
     nothing to commit, working directory clean
 
 # Fin de esta parte
-Bien, con este pequeño tutorial hemos visto los aspectos básicos 
+Bien, con este pequeño tutorial hemos visto los aspectos básicos de lo que hace un repositorio a nivel local para un solo uso. Con esto ya sabemos más o menos la mitad de lo que utilizaremos en el día a día.
+
+Antes de avanzar más, vamos a pasar a ver un poco github.
