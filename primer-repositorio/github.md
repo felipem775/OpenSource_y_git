@@ -82,6 +82,22 @@ To git@github.com:gogoigo/pyCalc.git
    2b50e4a..f87d1a6  master -> master
 ```
 
+# Descargar cambios de nuestro proyecto de github
+En ocasiones el repositorio remoto estará más actualizado que el que tengamos en local, bien porque un colaborador ha subido cambios, nosotros hemos hecho cambios en otro equipo o desde la propia web.
+
+Vamos a modificar el fichero README.md desde la web y luego sincronizaremos el repositorio local utilizando
+
+    git pull
+    
+```    
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From github.com:gogoigo/pyCalc
+ * [new branch]      patch-1    -> origin/patch-1
+Already up-to-date.
+```
 
 # Deshacer el último commit de github
 Si accidentalmente hemos enviado un commit a nuestro repositorio remoto, podemos deshacerlo con el comando:
