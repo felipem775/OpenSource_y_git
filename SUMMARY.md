@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Básico](basico.md)
 * [Introducción](introduccion.md)
 * [Instalación y configuración](Instalación y configuración.md)
 * [Primer repositorio](primer-repositorio.md)

@@ -53,9 +53,47 @@ Si desde el nuevo branch intentamos hacer un push, nos pedirá configurar a qué
 
 
 
+    $ git push --set-upstream origin mas-operaciones
+    Total 0 (delta 0), reused 0 (delta 0)
+    To git@github.com:gogoigo/pyCalc.git
+     * [new branch]      mas-operaciones -> mas-operaciones
+    Branch mas-operaciones set up to track remote branch mas-operaciones from origin.
+    
+Una vez que hemos definido el branch remoto, el resto de push desde el branch actual irán a ese branch
 
+# Checkout
+Antes vimos como con `git checkout` nos movíamos entre diferentes branches. Al hacer esto los ficheros se actualizan al estado de ese branch y para ello si es necesario se borran y se crean otros.         
 
-                
+Si estamos en mas-operaciones tenemos los siguientes ficheros:
+
+    $ ls
+    calculadora.py	README.md
+    
+Si cambiamos a master cambiará:
+
+    $ git checkout master
+    Switched to branch 'master'
+    Your branch is up-to-date with 'origin/master'.
+    
+    $ ls
+    README.md  suma2numeros.py
+
+Git guarda los datos de cada archivo que hay en todos los branches en su directorio `.git`, por lo que no perderemos ningún archivo registrado al movernos de uno a otro branch.
+        
+                                                
+# Merge
+Para llevar los commits de un branch a otro, el método es el de importar. 
+En nuestro proyecto actual nos interesa llevar los datos del branch _mas-operaciones_ a _master_, así que iremos al branch _master_ y desde ahí importaremos las novedades con `merge`
+
+    $ git checkout master
+    $ git merge mas-operaciones 
+    Updating 3d8dd82..2790751
+    Fast-forward
+     suma2numeros.py => calculadora.py | 0
+     1 file changed, 0 insertions(+), 0 deletions(-)
+     rename suma2numeros.py => calculadora.py (100%)
+
+En este caso el cambio es sencillo, renombra nuestro fichero
 
 ---
 Por otro lado, mientras hacemos un desarrollo de funcionalidad podemos querer hacer otros cambios que no tienen que ver con el desarrollo actual, como corregir un texto o un bug, y además que sea urgente. Haremos otra rama.
