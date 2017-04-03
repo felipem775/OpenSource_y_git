@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Básico](basico.md)
-* [Introducción](introduccion.md)
+  * [Introducción](basico/01-Introduccion.md)
 * [Instalación y configuración](Instalación y configuración.md)
 * [Primer repositorio](primer-repositorio.md)
 * [GitHub](github.md)
