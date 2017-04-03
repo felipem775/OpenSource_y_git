@@ -4,7 +4,7 @@ Como cualquier otro proyecto por sencillo que sea no lo vamos a desarrollar comp
 
 # Preparando el proyecto
 
-Comandos que usaremos: git init, git add, git commit.
+Comandos que usaremos: `git init`, `git add`, `git commit`.
 
 Creamos la carpeta pyCalc en el directorio /home/user/workspace/ y abrimos el terminal dentro de ella, vamos a iniciar un nuevo repositorio, para ello utilizaremos el comando `git init`
 
@@ -24,7 +24,7 @@ Al realizar el commit se nos abre un editor donde introducir un comentario sobre
 
 # Crear un script que sume dos cifras
 
-Comandos que usaremos: git init, git add, git commit.
+Comandos que usaremos: `git add`, `git commit`.
 
 Vamos a hacer un script que al ser llamado le pasemos dos números y nos devolverá la suma.
 
@@ -61,7 +61,7 @@ git commit -m "corregido bug, ahora suma números como float y no solo enteros"
 
 # Ver histórico y cambios realizados
 
-Comandos que usaremos: git log, git diff.
+Comandos que usaremos: `git log`, `git diff`.
 
 Si queremos ver qué cambios el histórico del repositorio simplemente usaremos el comando `git log`
 
@@ -123,7 +123,7 @@ Aquí podemos ver qué ficheros han sido modificados, en este caso solo suma2num
 En este caso vemos cómo ha desaparecido la línea donde se convertían los parámetros a números _int_ y a cambio se ha puesto una línea donde los parámetros se convierten a números _float_.
 
 # Estado del repositorio
-Comandos que usaremos: git status.
+Comandos que usaremos: `git status`.
 
 Podemos utilizar `git status` para ver en qué estado se encuentran nuestros ficheros respecto al repositorio.
 

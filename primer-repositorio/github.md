@@ -99,6 +99,8 @@ From github.com:gogoigo/pyCalc
 Already up-to-date.
 ```
 
+Recordatorio: Para descargar por primera vez usamos `git clone`, para descargar cambios en un repositorio existente, `git pull`.
+
 # Deshacer el último commit de github
 Si accidentalmente hemos enviado un commit a nuestro repositorio remoto, podemos deshacerlo con el comando:
 
