@@ -7,12 +7,13 @@ Aunque de entrada pueda parecer más complicada, la línea de comandos es bastan
 
 ## Configuración
 De los siguientes elementos a configurar solo es obligatorio el de _Identidad_.
+
 ### Identidad
 Antes de permitirnos hacer cualquier commit, nos obliga a definir una identidad. Debemos establecer nuestro nombre y email.
 
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
-    
+
 Hemos utilizado el parámetro `--global` para que sean los datos por defecto. Posteriormente en cualquier repositorio podremos modificar estos datos solo para él.
 
 ### Editor
@@ -21,7 +22,7 @@ Podemos establecer un editor de textos para añadir los comentarios a nuestros c
 Linux:
 
     $ git config --global core.editor nano
-    
+
 Windows:
 
     $ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
@@ -30,5 +31,5 @@ Windows:
 Podemos ver la configuración actual con:
 
     $ git config --list
-    
+
 Normalmente estos datos se almacenan en `/etc/gitconfig` y `~/.gitconfig`
