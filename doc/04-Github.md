@@ -25,7 +25,7 @@ El proyecto de la calculadora está publicado en la siguiente página: [https://
 
 ![](/assets/felipem775-pyCalc.png)
 
-### Clone 
+### Clone
 Si deseamos **solo descargar el código**, utilizamos el botón de **Clone or download**
 ** que nos dará la información para realizar un `git clone` o bien un zip solo con los ficheros del proyecto pero sin repositorio.
 
@@ -64,8 +64,8 @@ Ahora, igual que si hubieramos clonado el repositorio ajeno, podremos trabajar c
 # Enviando nuestros cambios a nuestro proyecto
 Vamos a realizar un cambio en nuestro proyecto y realizar el commit, por ejemplo, añadir la codificación para que pueda ejecutarse en python2
 
-    $ git add suma2numeros.py 
-    $ git commit -m "añadida codificación utf8, ahora ya no falla con python 2" 
+    $ git add suma2numeros.py
+    $ git commit -m "añadida codificación utf8, ahora ya no falla con python 2"
 
 Tras el commit está actualizado en el repositorio local y ahora vamos a enviarlo al repositorio remoto, para ello vamos a usar
 
@@ -88,7 +88,7 @@ En ocasiones el repositorio remoto estará más actualizado que el que tengamos 
 Vamos a modificar el fichero README.md desde la web y luego sincronizaremos el repositorio local utilizando
 
     git pull
-    
+
 ```    
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
@@ -105,3 +105,25 @@ Recordatorio: Para descargar por primera vez usamos `git clone`, para descargar 
 Si accidentalmente hemos enviado un commit a nuestro repositorio remoto, podemos deshacerlo con el comando:
 
     git push -f origin HEAD^:master
+
+# Eliminar ficheros del repositorio
+Aunque no es una práctica deseable, a veces nos encontramos en la necesidad de eliminar un fichero de todo el repositorio, no solo del estado actual. Para ello utilizamos
+
+    $ git filter-branch --index-filter "git rm --cached --ignore-unmatch path/to/BadFile" HEAD
+    Ref 'refs/heads/master' was rewritten
+
+Si miramos en el log los ficheros que han cambiado, veremos que el commit sigue existiendo pero no hay ningún fichero en él.
+
+    $ git log --name-status
+
+
+Tras ello, tendremos conflicto con el repositorio en GitHub, pues nuestro historial no concuerda con el remoto. Por ello debemos forzar el comando push
+
+    $ git push --force
+    Counting objects: 4, done.
+    Delta compression using up to 8 threads.
+    Compressing objects: 100% (4/4), done.
+    Writing objects: 100% (4/4), 525 bytes | 0 bytes/s, done.
+    Total 4 (delta 0), reused 0 (delta 0)
+    To git@github.com:gogoigo/test.git
+     + 52531bc...d930a02 master -> master (forced update)
