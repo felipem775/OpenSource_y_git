@@ -6,9 +6,6 @@ El primer fichero que se busca en un repositorio es el **README.md**. Se trata d
 # Nunca desarrollar en _master_
 La rama principal del repositorio es llamada _master_, en ella siempre debemos tener la última versión del código que funcione completa, por lo que no podemos tener desarrollos a medias.
 
-# Hacer commit a menudo
-Muchas veces nos olvidamos de realizar commits o pensamos que son insignificantes, hasta que queremos deshacer un par de cambios. Una ventaja del sistema distribuido es que todos los commits que realicemos se harán en nuestro repositorio, luego no tendremos problemas en descartar lo que no nos interese.
-
 # Comentarios útiles en los commits
 Igual que los comentarios en el código, es importante que detallemos en lo posible los mensajes del commit. Ya no solo porque lo vaya a leer otra persona, sino porque es posible que nosotros mismos lo hagamos dentro de muchos meses y no recordemos el por qué de cierto cambio.
 
@@ -18,6 +15,9 @@ Ej. Añadir una dependencia y su referencia. Añadir fichero completion y su ref
 
 # En cada rama solo desarrollamos lo relacionado con la feature
 Mientras estamos desarrollando una característica nos pueden pedir que corrijamos o modifiquemos algún fallo que se ha detectado en la versión de master. Aunque sea un cambio pequeño, debemos ir a master, crear una rama nueva a partir ahí, solucionarlo en la nueva rama, volver a master, hacer merge, regresar a la rama donde estábamos trabajando y también hacer merge para tomar el nuevo cambio en nuestro código.
+
+# Merge con --no-ff
+Cuando traemos los commits de otro branch, por defecto se añaden al histórico del branch actual sin ningún rastro de que haya sido desarrollado aparte. Si añadimos la opción `--no-ff` sí que se agruparán todos los commits que traemos, y no nos será costoso localizar en la historia commits anteriores y posteriores.
 
 # Recuerda etiquetar versiones del software.
 Cuando nuestro proyecto alcance algún hito, además de realizar el commit correspondiente, podemos hacer un tag para que en el futuro podamos acceder fácilmente a ese estado del proyecto.
