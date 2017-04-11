@@ -11,4 +11,5 @@
 * [README.md](doc/08-README.md)
 * [Buenas prácticas](doc/09-buenas-practicas.md)
 * [Branching avanzado](doc/10-branching-avanzado.md)
+* [GitHub Pages](doc/11-github-pages.md)
 * [Glosario](GLOSSARY.md)
