@@ -2,7 +2,8 @@ El fichero README.md debe estar presente en cualquier proyecto open source, loca
   * Nombre del proyecto
   * Descripción del proyecto.
   * Enlace a demo o ejemplos.
+  * Requisitos
   * Cómo instalar y usar.
   * Cómo contribuir al proyecto, aunque puede ir aparte en el fichero CONTRIBUTING
   * Créditos con los autores del proyecto.
-  * Licencia. 
+  * Licencia.
