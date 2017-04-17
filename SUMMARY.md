@@ -1,5 +1,16 @@
 # Summary
 
+* Introducción Software Libre
+  * Qué es
+  * Ventajas
+
+* Comunidad
+* Características de un proyecto SL
+
+* Dónde encontrar SL
+
+
+
 * [README](README.md)
 * [Introducción](doc/01-Introduccion.md)
 * [Instalación y configuración](doc/02-Instalacion-y-configuracion.md)
