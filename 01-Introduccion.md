@@ -15,4 +15,21 @@ En [Las 5 licencias de software libre más importantes que todo desarrollador de
 
 La licencia que más se ajusta a la filosofía del software es la **GPL**, ya que las versiones modificadas deben ser también software libre mientras que otras como las licencias BSD son *permisivas* y se permite utilizar el código en **software no libre**.
 
-## Ventajas
+## Ventajas y motivación
+Aunque existen muchos más motivos, algunos de los más destacados son:
+  * Promocionar el software: Es una manera de convertir tu software en un referente para la comunidad. En el caso de publicaciones científicas, puede ser una manera de obtener referencias al trabajo realizado.
+  * Recibir feedback de la comunidad. En este caso, es generalmente buena idea realizar una campaña de difusión del software por diferentes foros en los que pueda tener repercusión, tales como revistas y webs expecializadas. La propia liberación sin difusión reducir o retrasar su impacto.
+  * Si se ha empleado financión pública, devolver a toda la sociedad el resultado de un desarrollo financiado con el dinero de todos.
+
+# Plataformas para publicar software libre
+Publicar software libre, igual que software propietario, se puede publicar en cualquier sitio de internet. Sin embargo, en los últimos años se han popularizado ciertos sitios donde la gente libera sus proyectos:
+  * GitHub
+  * Gitlab
+  * Bitbucket
+  * Sourceforge
+
+Estas plataformas además de permitirnos publicar nuestro software, estas plataformas nos proporcionan una serie de servicios que ayudan al desarrollo:
+   * Control de versiones
+   * Colaboración de usuarios
+   * Gestor de bugs
+   * Wiki
