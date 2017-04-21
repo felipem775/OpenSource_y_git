@@ -1,3 +1,6 @@
+[Git](http://git-scm.com/) es un **software de control de versiones distribuido**. Aunque existen muchas alternativas, Git es en la actualidad el más popular por su facilidad de uso, estabilidad y gestión eficiente de grandes proyectos.  
+Otro sistema de versiones que utilizamos en el IH es [SVN](http://subversion.apache.org/) \(Subversion\), pero éste es más antiguo y con más limitaciones.
+
 # Instalación y configuración de git
 
 ## Descarga e instalación

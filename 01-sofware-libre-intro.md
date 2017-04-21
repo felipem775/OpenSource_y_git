@@ -29,7 +29,7 @@ Publicar software libre, igual que software propietario, se puede publicar en cu
   * Sourceforge
 
 Estas plataformas además de permitirnos publicar nuestro software, estas plataformas nos proporcionan una serie de servicios que ayudan al desarrollo:
-   * Control de versiones
-   * Colaboración de usuarios
-   * Gestor de bugs
-   * Wiki
+  * Control de versiones
+  * Colaboración de usuarios
+  * Gestor de bugs
+  * Wiki
