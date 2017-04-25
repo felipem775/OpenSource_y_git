@@ -1,6 +1,5 @@
 # Summary
 
-* [README](README.md)
 * [Introducción Software libre](01-sofware-libre-intro.md)
 * [Introducción Control de versiones](02-control-de-versiones.md)
 * [Git - Primer repositorio (parte 1)](03A-Git-instalacion-configuracion.md)
