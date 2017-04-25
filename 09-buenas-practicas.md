@@ -22,3 +22,8 @@ Cuando traemos los commits de otro branch, por defecto se añaden al histórico 
 # Recuerda etiquetar versiones del software.
 Cuando nuestro proyecto alcance algún hito, además de realizar el commit correspondiente, podemos hacer un tag para que en el futuro podamos acceder fácilmente a ese estado del proyecto.
 Ej. Versión 0.1
+
+# Intentar solo tener código fuente
+Debemos evitar añadir binarios que no sean imprescindibles, en especial:
+  * Bibliotecas externas. Deberá documentarse la dependencia pero no incluirlo en el repositorio.
+  * Binarios generados en nuestro proyecto. Los ejecutables y bibliotecas deberían compilarse cada vez. Las única excepción podría ser cuando generamos una versión estable y etiquetada.
