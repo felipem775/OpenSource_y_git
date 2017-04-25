@@ -12,7 +12,9 @@ Aunque de entrada pueda parecer más complicada, la línea de comandos es bastan
 De los siguientes elementos a configurar solo es obligatorio el de _Identidad_.
 
 ### Identidad
-Antes de permitirnos hacer cualquier commit, nos obliga a definir una identidad. Debemos establecer nuestro nombre y email.
+En los repositorios pueden trabajar diferentes personas, por ello debemos establecer una *Identidad* para saber quién ha hecho las modificaciones.
+
+Debemos establecer nuestro nombre y email.
 
     $ git config --global user.name "John Doe"
     $ git config --global user.email johndoe@example.com
