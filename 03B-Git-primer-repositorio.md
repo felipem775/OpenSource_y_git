@@ -1,6 +1,6 @@
 Para facilitar el manual vamos a crear un proyecto de ejemplo: Una calculadora en python.
 
-Como cualquier otro proyecto por sencillo que sea no lo vamos a desarrollar completo y bien a la primera, por lo que será útil ir registrando los cambios en el repositorio. 
+Como cualquier otro proyecto por sencillo que sea no lo vamos a desarrollar completo y bien a la primera, por lo que será útil ir registrando los cambios en el repositorio.
 
 # Preparando el proyecto
 
@@ -16,7 +16,7 @@ Initialized empty Git repository in /home/mazaf/workspace/pyCalc/.git/
 Ahora creamos un fichero llamado README.md donde añadiremos una descripción del proyecto que vamos a comenzar. Este será el primer archivo que incorporemos al repositorio git.
 
 ```
-git add README.md 
+git add README.md
 git commit
 ```
 
@@ -39,23 +39,23 @@ $ python3 suma2numeros.py 2 3
 Este script, aunque muy simple y mejorable, es capaz de realizar el primer hito. Vamos a guardar los cambios en el repositorio.
 
 ```
-git add suma2numeros.py 
-git commit 
+git add suma2numeros.py
+git commit
 ```
 
-Aunque cumple el objetivo del hito, vamos a añadirle alguna característica como que compruebe que se le están pasando dos números.  
+Aunque cumple el objetivo vamos a añadirle alguna característica como que compruebe que se le están pasando dos números.  
 Mientras añadimos estas características nos fijamos que solo podemos sumar números enteros. ¡es un bug!  
 Aunque es muy fácil de resolver, primero debemos terminar la otra funcionalidad para hacer commit y luego ya arreglaremos el bug y haremos commit de esto.
 
 ```
-git add suma2numeros.py 
+git add suma2numeros.py
 git commit -m "Añadida validación de que se trata de dos parámetros y que éstos son números"
 ```
 
 Ahora ya podemos corregir el bug y añadirlo al repositorio
 
 ```
-git add suma2numeros.py 
+git add suma2numeros.py
 git commit -m "corregido bug, ahora suma números como float y no solo enteros"
 ```
 
@@ -63,11 +63,11 @@ git commit -m "corregido bug, ahora suma números como float y no solo enteros"
 
 Comandos que usaremos: `git log`, `git diff`.
 
-Si queremos ver qué cambios el histórico del repositorio simplemente usaremos el comando `git log`
+Si queremos ver el histórico del repositorio simplemente usaremos el comando `git log`
 
      $ git log  
-     
-     
+
+
 ```   
 commit 2b50e4ace5d8badf9d0246f8b2570d3f2b31b4fe  
 Author: Felipe Maza <felipe.maza@unican.es>  
@@ -88,21 +88,21 @@ Date:   Thu Mar 30 10:16:46 2017 +0200
     Script muy básico que suma dos números
 
 commit 38859dba49cacb9816296cee4f58afd510330259  
-Author: Felipe Maza <felipe.maza@unican.es> 
+Author: Felipe Maza <felipe.maza@unican.es>
 Date:   Thu Mar 30 10:02:14 2017 +0200
 
      Añadimos el primer fichero al repositorio. Contiene una breve descripción.
- 
+
 ```
 
-De cada _commit_ que hemos hecho nos da la siguiente información:
+De cada _commit_ nos da la siguiente información:
 * Un identificador alfanumérico, nos servirá cuando queramos referirnos a un commit determinado.
 * Autor del commit.
-* Date Fecha en la que se ha realizado el commit.
+* Fecha en la que se ha realizado el commit.
 * Comentario que escribió el autor del commit.
 
 
-Si queremos ver qué cambios hemos respecto a un commit, utilizaremos `git diff`
+Si queremos ver qué cambios hay respecto a un commit, utilizaremos `git diff`
 
      $ git diff 3f83af0de2447dffe267832a36e53e95ee068846
 ```     
@@ -112,7 +112,7 @@ index 36aebbe..59dd95c 100644
 +++ b/suma2numeros.py
 @@ -10,4 +10,4 @@ elif  re.match("^[+-]?\d(>?\.\d+)?$", sys.argv[2]) is None:
      print("El segundo parámetro no es un número")
- 
+
  else:
 -    print(int(sys.argv[1]) + int(sys.argv[2]))
 +    print(float(sys.argv[1]) + float(sys.argv[2]))
@@ -130,7 +130,7 @@ Podemos utilizar `git status` para ver en qué estado se encuentran nuestros fic
 Tras hacer un commit de todos nuestros ficheros, estaremos sincronizados con el repositorio:
 
     $ git status
-    
+
     On branch master
     nothing to commit, working directory clean
 

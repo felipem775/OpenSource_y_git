@@ -1,6 +1,9 @@
-[GitHub](https://github.com/) es una plataforma donde podemos alojar y publicar proyectos que utilicen git. Es gratuito para todos los proyectos que hagamos públicos pero deberemos pagar si queremos que nustro usuario pueda dar de alta repositorios privados.  
-Existen otras plataformas donde sí podemos crear repositorios privados, como [bitbucket](https://bitbucket.org/) y [gitlab](https://about.gitlab.com/gitlab-com/), además también podemos montar un servidor de Git dentro del IH. El motivo de utilizar GitHub se debe a que es mucho más importante, con diferencia, respecto a las otras plataformas.  
-Los proyectos open source del IH se encuentran disponibles en la dirección:  
+[GitHub](https://github.com/) es una plataforma donde podemos alojar y publicar proyectos que utilicen git. Es **gratuito** para todos los proyectos que hagamos **públicos** pero solo las cuentas de pago pueden dar de alta repositorios privados.  
+Existen otras plataformas donde sí podemos crear repositorios privados, como [bitbucket](https://bitbucket.org/) y [gitlab](https://about.gitlab.com/gitlab-com/), además también podemos montar un servidor de Git dentro del IH.   
+El motivo de utilizar GitHub se debe a que es mucho más importante, con diferencia, respecto a las otras plataformas.  
+Es importante destacar que un proyecto **git puede sincronizarse con diferentes servicios a la vez**, de este modo podemos tener un repositorio en GitHub y en GitLab a la vez, y decidir qué se comparte en cada uno de ellos.
+
+Los proyectos de software libre del IH se encuentran disponibles en la dirección:  
 [https://github.com/ihcantabria](https://github.com/ihcantabria)
 
 
@@ -8,7 +11,7 @@ Los proyectos open source del IH se encuentran disponibles en la dirección:
 
 Simplemente iremos a la página de registro [https://github.com/join](https://github.com/join) y rellenaremos el formulario. Nos enviarán un correo de confirmación a la cuenta que les hayamos proporcionado.
 
-Una vez que tengamos nuestra cuenta nos pedirá rellenar información sobre nosotros \(opcional\) y podemos activar la autentificación en dos pasos \(opcional\) que consiste en que nos enviarán un sms cuando nos identifiquemos en un equipo nuevo, por lo que además de la clave, necesitaremos tener el teléfono.
+Una vez que tengamos nuestra cuenta nos pedirá rellenar información sobre nosotros \(opcional\) y podemos activar la autentificación en dos pasos \(opcional\) que consiste en que nos enviarán un sms cuando nos identifiquemos en un equipo nuevo por lo que para acceder a la cuenta,  además de la clave, necesitaremos tener el teléfono a mano.
 
 ## Clave SSH
 

@@ -13,3 +13,6 @@ Algunos controles de versiones son:
   * Git
   * Mercurial
   * Subversion
+  * CSV
+
+Entre ellos la forma de trabajar varía, por flexibilidad, potencia y popularidad, vamos a aprende a utilizar **git**.

@@ -1,11 +1,11 @@
-[Git](http://git-scm.com/) es un **software de control de versiones distribuido**. Aunque existen muchas alternativas, Git es en la actualidad el más popular por su facilidad de uso, estabilidad y gestión eficiente de grandes proyectos.  
-Otro sistema de versiones que utilizamos en el IH es [SVN](http://subversion.apache.org/) \(Subversion\), pero éste es más antiguo y con más limitaciones.
+[Git](http://git-scm.com/) es un **software de control de versiones distribuido**. Aunque existen muchas alternativas, Git es en la actualidad el más popular por su facilidad de uso, estabilidad, versatilidad y gestión eficiente de grandes proyectos.  
+Otro sistema de versiones que utilizamos en el IH es [SVN](http://subversion.apache.org/) \(Subversion\) pero éste es más antiguo y con más limitaciones.
 
 # Instalación y configuración de git
 
 ## Descarga e instalación
 En la web oficial nos explican cómo descargarlo e instalarlo en diferentes sistemas operativos https://git-scm.com/downloads.  
-Se trata de un programa CLI, la interface es la línea de comandos pero podemos instalar también alguna GUI descargándola de https://git-scm.com/downloads/guis/.  
+Se trata de un programa CLI, la interface es la línea de comandos pero podemos instalar también alguna GUI (programa visual) disponibles en https://git-scm.com/downloads/guis/.  
 Aunque de entrada pueda parecer más complicada, la línea de comandos es bastante sencilla para trabajar con git. En estos tutoriales trabajaremos siempre desde ella.
 
 ## Configuración

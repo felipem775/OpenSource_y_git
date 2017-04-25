@@ -9,11 +9,11 @@ Para que una licencia la consideremos de software libre, debe recoger las siguie
   * La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
 
 ## Licencias de software libre
-Existen varias licencias que cumplen las cuatro libertades pero que luego difieren en otros aspectos, por lo que hay que tenerlo en cuenta a la hora de decidir qué licencia elegir.
+Existen varias licencias que cumplen las cuatro libertades pero que luego difieren en otros aspectos, por lo que hay que tenerlo en cuenta a la hora de decidir cuál elegir.
 
 En [Las 5 licencias de software libre más importantes que todo desarrollador debe conocer](https://bbvaopen4u.com/es/actualidad/las-5-licencias-de-software-libre-mas-importantes-que-todo-desarrollador-debe-conocer) podemos leer un resumen sobre ellas.
 
-La licencia que más se ajusta a la filosofía del software es la **GPL**, ya que las versiones modificadas deben ser también software libre mientras que otras como las licencias BSD son *permisivas* y se permite utilizar el código en **software no libre**.
+La licencia que más se ajusta a su filosofía es la **GPL**, ya que las versiones modificadas deben ser también software libre mientras que otras como las licencias BSD son *permisivas* y se permite utilizar el código en **software no libre**.
 
 ## Ventajas y motivación
 Aunque existen muchos más motivos, algunos de los más destacados son:
@@ -22,7 +22,7 @@ Aunque existen muchos más motivos, algunos de los más destacados son:
   * Si se ha empleado financión pública, devolver a toda la sociedad el resultado de un desarrollo financiado con el dinero de todos.
 
 # Plataformas para publicar software libre
-Publicar software libre, igual que software propietario, se puede publicar en cualquier sitio de internet. Sin embargo, en los últimos años se han popularizado ciertos sitios donde la gente libera sus proyectos:
+Publicar software libre, igual que software propietario, se puede hacer en cualquier sitio de internet (incluso no es un requisito que esté en internet). Sin embargo, en los últimos años se han popularizado ciertos sitios donde la gente libera sus proyectos:
   * GitHub
   * Gitlab
   * Bitbucket
@@ -33,3 +33,5 @@ Estas plataformas además de permitirnos publicar nuestro software, estas plataf
   * Colaboración de usuarios
   * Gestor de bugs
   * Wiki
+
+Actualmente la más popular es **GitHub**, por lo que en este tutorial veremos cómo utilizarla.
