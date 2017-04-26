@@ -1,13 +1,11 @@
 # Qué es
-Un _Branch_ es una ramificación en el repositorio que utilizaremos para realizar cambios en nuestro código.
-Cuando queremos añadir los cambios de una rama a otra los mezclamos con _merge_.
-A continuación veremos por qué y cómo hacerlo.
+Por un lado _Branch_ se trata de una ramificación del repositorio, nos permite desarrollar en paralelo a otros cambios y sin preocuparnos de tener el código con errores mientras realizamos cambios. Por otro lado tenemos _Merge_, que es el asistente que nos permite añadir los nuevos cambios que ya funcionan en el branch donde tenenemos la versión funcional del código.  
+A continuación veremos más claramente por qué y cómo hacerlo.
 
 # Por qué
-En nuestro primer repositorio hemos ido avanzando en el programa y añadiendo los cambios a nuestro repositorio. Estos cambios se han hecho sin trabajar con ramas, o más bien trabajando en la rama por defecto: **master**, éste es el tronco de nuestro repositorio y en él deberíamos tener la última versión funcional de nuestro proyecto.
-Si queremos realizar modificaciones del código, es posible que queramos hacer commits durante el avance y que estos provoquen que hasta que no se terminen los cambios la aplicación no funcione correctamente, por eso **desarrollamos en ramas**.
-Por ejemplo, en la aplicación de la calculadora vamos a hacer que además de sumar se pueda restar, multiplicar y dividor dos cifras. Simplemente cambiar y hacer commit para que acepte 3 parámetros en lugar de los 2 actuales, hará que hasta que no terminemos el nuevo desarrollo nadie pueda utilizar la aplicación.
-Si nos llevamos el desarrollo a otra rama, una persona que descargue _master_ podrá utilizarlo con los últimos cambios completos que tenga. Mientras, nosotros trabajando en el branch podremos hacer todos los commits que queramos.
+En nuestro primer repositorio hemos ido avanzando en el programa y añadiendo los cambios a nuestro repositorio. Estos cambios se han hecho sin trabajar con ramas, o más bien trabajando en la rama por defecto: **master**, éste es el tronco de nuestro repositorio y en él deberíamos tener la última versión funcional de nuestro proyecto.  
+Si queremos realizar modificaciones del código, es posible que queramos hacer commits durante el avance y que estos provoquen que hasta que no se terminen los cambios la aplicación no funcione correctamente, por eso **desarrollamos en ramas**.  
+Por ejemplo, en la aplicación de la calculadora vamos a hacer que además de sumar se pueda restar, multiplicar y dividir dos cifras. Simplemente cambiar y hacer commit para que acepte 3 parámetros en lugar de los 2 actuales, hará que hasta que no terminemos el nuevo desarrollo nadie pueda utilizar la aplicación. Si nos llevamos el desarrollo a otra rama, una persona que descargue _master_ podrá utilizarlo con los últimos cambios completos que tenga. Mientras, nosotros trabajando en el branch podremos hacer todos los commits que queramos.
 
 # Crear una rama
 Comandos que usaremos: `git branch`, `git checkout`.
