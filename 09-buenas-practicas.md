@@ -1,4 +1,5 @@
-
+# Inglés
+Tanto el código como comentarios y documentación debe estar escrito en inglés. La intención de liberar código es que puedan acceder a él y para ello en inglés alcanzará a muchas más personas.
 
 # Fichero README.md
 El primer fichero que se busca en un repositorio es el **README.md**. Se trata de un fichero en formato _markdown_ donde, sin ser un manual, se explica brevemente de qué trata el proyecto, cómo usarlo y qué licencia utiliza.  
