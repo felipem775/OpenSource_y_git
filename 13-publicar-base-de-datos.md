@@ -15,3 +15,13 @@ Todos los motores de bases de datos disponen de herramientas para realizar un \*
 
 
 
+```
+.
++-- db/
+|   -- schema.sql
+|   -- data.sql
+```
+
+
+
+
